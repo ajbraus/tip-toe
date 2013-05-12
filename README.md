@@ -1,6 +1,10 @@
-# Tip::Toe
+tip-toe
+=======
 
-TODO: Write a gem description
+A Rails 3.2 Gem For Progressive Registration
+---------
+
+Who needs password confirm? Or anything except email for that matter? Ask for everything after! This gem gives you a simple email, password, remember me, form with complete forget password? functionality.
 
 ## Installation
 
@@ -12,13 +16,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Then use the tip-toe generator to get a fully exposed sessions controller and <<ModelName>> controller and shared tip-toe paritals
 
-    $ gem install tip-toe
+    $ rails generate tip-toe <<ModelName>>>
 
-## Usage
 
-TODO: Write usage instructions here
+Wherever you want people to register or login simply attach
+
+    <%= render 'tip-toe' %>
+
 
 ## Contributing
 
