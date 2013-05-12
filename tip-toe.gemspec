@@ -12,6 +12,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Who needs password confirm? Or anything except email for that matter? Ask for everything after! This gem gives you a simple email, password, remember me, form with complete forget password? functionality.}
   gem.homepage      = ""
 
+  # gem.add_development_dependency "rspec"
+
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
