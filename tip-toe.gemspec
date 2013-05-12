@@ -5,12 +5,12 @@ require 'tip-toe/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "tip-toe"
-  gem.version       = Tip::Toe::VERSION
+  gem.version       = TipToe::VERSION
   gem.authors       = ["ajbraus"]
   gem.email         = ["ajbraus@gmail.com"]
   gem.description   = %q{Progressive Registration Gem}
   gem.summary       = %q{Who needs password confirm? Or anything except email for that matter? Ask for everything after! This gem gives you a simple email, password, remember me, form with complete forget password? functionality.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/ajbraus/tip-toe"
 
   # gem.add_development_dependency "rspec"
 

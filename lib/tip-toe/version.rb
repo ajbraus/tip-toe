@@ -1,5 +1,3 @@
-module Tip
-  module Toe
-    VERSION = "0.0.1"
-  end
+module TipToe
+  VERSION = "0.0.2"
 end
